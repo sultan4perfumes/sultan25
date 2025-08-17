@@ -17,14 +17,21 @@
 }
 
 .logo img {
-    max-width: 150px;   /* حجم الشعار */
-    width: 150%
+    width: 200px;       /* حجم ثابت على الشاشات الكبيرة */
     height: auto;
-    border-radius: 0px; /* حواف ناعمة */
+    border-radius: 0;
     box-shadow: none;
     background: none;
     display: block;
     transition: transform 0.3s ease;
+}
+
+/* للجوال */
+@media (max-width: 480px) {
+    .logo img {
+        width: 80%;     /* عرض نسبي على الشاشات الصغيرة */
+        max-width: 150px;
+    }
 }
 
 .logo img:hover {
@@ -202,6 +209,7 @@ p.subtitle {
     letter-spacing: 0.5px;
     z-index: 999;
 }
+
 
 
 
