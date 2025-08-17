@@ -18,10 +18,12 @@
 
 .logo img {
     max-width: 150px;   /* حجم الشعار */
-    width: 100%
+    width: 150%
     height: auto;
     border-radius: 0px; /* حواف ناعمة */
     box-shadow: none;
+    background: none;
+    display: block;
     transition: transform 0.3s ease;
 }
 
@@ -200,5 +202,6 @@ p.subtitle {
     letter-spacing: 0.5px;
     z-index: 999;
 }
+
 
 
