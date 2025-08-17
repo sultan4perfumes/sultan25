@@ -17,7 +17,7 @@
 }
 
 .logo img {
-    max-width: 150px;   /* حجم الشعار */
+    max-width: 50px;   /* حجم الشعار */
     height: auto;
     border-radius: 0px; /* حواف ناعمة */
     box-shadow: none;
@@ -199,3 +199,4 @@ p.subtitle {
     letter-spacing: 0.5px;
     z-index: 999;
 }
+
