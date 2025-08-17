@@ -9,7 +9,24 @@
     --bg-gradient: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
     --bg-success: #25D366;
 }
+/* الشعار */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+.logo img {
+    max-width: 150px;   /* حجم الشعار */
+    height: auto;
+    border-radius: 0px; /* حواف ناعمة */
+    box-shadow: none;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05); /* تكبير خفيف عند المرور */
+}
 * {
     font-family: 'El Messiri', sans-serif;
     box-sizing: border-box;
